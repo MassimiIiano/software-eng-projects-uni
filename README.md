@@ -17,3 +17,6 @@
 
 ### Klassendiagramm (Einfach)
 ![Klassendiagramm (Einfach)](./sw-eng-03.drawio.svg)
+
+#### Erklärung
+
