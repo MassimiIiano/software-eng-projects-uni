@@ -11,9 +11,9 @@
 
 ![Anwendungsfallmodell](./sw-eng-01.drawio.svg)
 
-### Anwendungsfallmodell mit Unternehmen
+### Anwendungsfallmodell mit Server
 
-![Anwendungsfallmodell mit Unternehmen](./sw-eng-02.drawio.svg)
+![Anwendungsfallmodell mit Server](./sw-eng-02.drawio.svg)
 
 ### Klassendiagramm (Einfach)
 ![Klassendiagramm (Einfach)](./sw-eng-03.drawio.svg)
