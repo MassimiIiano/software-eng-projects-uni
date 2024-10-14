@@ -59,7 +59,7 @@
         <mxCell id="aNzq7tJSj-dbq8cgVlb_-10" value="+ vervallsdatum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aNzq7tJSj-dbq8cgVlb_-7">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="aNzq7tJSj-dbq8cgVlb_-15" value="&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;br&gt;EBuchungsvorschlag" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aNzq7tJSj-dbq8cgVlb_-15" value="EBuchungsvorschlag" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="344" y="90" width="140" height="156" as="geometry" />
         </mxCell>
         <mxCell id="aNzq7tJSj-dbq8cgVlb_-16" value="+ price" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aNzq7tJSj-dbq8cgVlb_-15">
