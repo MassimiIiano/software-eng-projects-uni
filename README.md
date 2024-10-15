@@ -28,3 +28,20 @@ Eingeschlossene Anwendungsfälle (Buchung, Buchungsinformationen und Alter, Pers
 Der User enthelt Persoenliche Daten und kann mit vielen Bezahlungsdaten verbunden sein.
 Dem echten Kunde (nicht das Objekt) werden Buchunsvor
 
+### Klassendiagramm (Erweitert)
+![Klassendiagramm (Erweitert)](./sw-eng-04.drawio.svg)
+
+#### Erklärung
+<!-- TODO -->
+
+### Sequenzdiagramm
+![Sequenzdiagramm](./sw-eng-05.drawio.svg)
+
+#### Erklärung
+<!-- TODO -->
+
+### Klassendiagramm mit funktionen
+![Klassendiagramm mit Funktionen](./sw-eng-06.drawio.svg)
+
+#### Erklärung
+<!-- TODO -->
