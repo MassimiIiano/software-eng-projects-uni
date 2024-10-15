@@ -17,7 +17,9 @@
 
 #### Erklärung
 
-*Aufgabe 2:* Das Anwendungsfalldiagramm zeigt Anwendungsfälle des Autovermietungssystems. Die meisten Fälle werden aus der Perspektive des Servers beschrieben. Nur der Anwendungsfall "Buchung" ist direkt mit dem Kunden verbunden.
+- Aufgabe 1: Das Anwendungsfalldiagramm zeigt das Autovermietungssystem, aus der Sicht des Kunden. Die angezeigte Anwendungsfälle beschreiben die Interaktionen zwischen den Kunden und dem System, durch Datenaustausch und deren Anforderungen. Die Eintrittspunkte des Systems für den Kunden sind die Buchungen und die angezeigten Angebote. Jeder Anwendungsfall ist erforderlich für ein funktionelles, komplettes Autovermietungssystem.
+
+- Aufgabe 2: Das Anwendungsfalldiagramm zeigt Anwendungsfälle des Autovermietungssystems. Die meisten Fälle werden aus der Perspektive des Servers beschrieben. Nur der Anwendungsfall "Buchung" ist direkt mit dem Kunden verbunden.
 Eingeschlossene Anwendungsfälle (Buchung, Buchungsinformationen und Alter, Persönliche Daten, Zahlungsdaten, usw.) sind notwendig, um Basis-Anwendungsfälle korrekt zu funktionieren (Bestätigungs-E-Mail Erstellung, Kostenvoranschläge Bereitstellung, Buchung in Datenbank Speicherung, usw.).
 
 ### Klassendiagramm (Einfach)
@@ -27,4 +29,3 @@ Eingeschlossene Anwendungsfälle (Buchung, Buchungsinformationen und Alter, Pers
 
 Der User enthelt Persoenliche Daten und kann mit vielen Bezahlungsdaten verbunden sein.
 Dem echten Kunde (nicht das Objekt) werden Buchunsvor
-
