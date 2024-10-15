@@ -9,11 +9,11 @@
 
 ### Anwendungsfallmodell
 
-![Anwendungsfallmodell](./sw-eng-01.drawio.png)
+![Anwendungsfallmodell](./sw-eng-01.drawio.svg)
 
 ### Anwendungsfallmodell mit Server
 
-![Anwendungsfallmodell mit Server](./sw-eng-02.drawio.png)
+![Anwendungsfallmodell mit Server](./sw-eng-02.drawio.svg)
 
 #### Erklärung
 
@@ -21,7 +21,7 @@
 Eingeschlossene Anwendungsfälle (Buchung, Buchungsinformationen und Alter, Persönliche Daten, Zahlungsdaten, usw.) sind notwendig, um Basis-Anwendungsfälle korrekt zu funktionieren (Bestätigungs-E-Mail Erstellung, Kostenvoranschläge Bereitstellung, Buchung in Datenbank Speicherung, usw.).
 
 ### Klassendiagramm (Einfach)
-![Klassendiagramm (Einfach)](./sw-eng-03.drawio.png)
+![Klassendiagramm (Einfach)](./sw-eng-03.drawio.svg)
 
 #### Erklärung
 
@@ -30,19 +30,19 @@ Dem echten Kunde (nicht das Objekt) werden Buchunsvorschlage gemacht, die basier
 Ein Buchungsvorschlag wird as template genommen um eine Buchung zu erstellen.
 
 ### Klassendiagramm (Erweitert)
-![Klassendiagramm (Erweitert)](./sw-eng-04.drawio.png)
+![Klassendiagramm (Erweitert)](./sw-eng-04.drawio.svg)
 
 #### Erklärung
 <!-- TODO -->
 
 ### Sequenzdiagramm
-![Sequenzdiagramm](./sw-eng-05.drawio.png)
+![Sequenzdiagramm](./sw-eng-05.drawio.svg)
 
 #### Erklärung
 <!-- TODO -->
 
 ### Klassendiagramm mit funktionen
-![Klassendiagramm mit Funktionen](./sw-eng-06.drawio.png)
+![Klassendiagramm mit Funktionen](./sw-eng-06.drawio.svg)
 
 #### Erklärung
 <!-- TODO -->
