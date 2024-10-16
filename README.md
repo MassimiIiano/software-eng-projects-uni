@@ -25,7 +25,7 @@ Eingeschlossene Anwendungsfälle (Buchung, Buchungsinformationen und Alter, Pers
 
 #### Erklärung
 
-Der User enthelt Persoenliche Daten und kann mit vielen Bezahlungsdaten verbunden sein.
+Der Benutzer enthält persönliche Daten und kann mit vielen Zahlungsdaten verbunden sein. Dem echten Kunden (nicht dem Objekt) werden Buchungsvorschläge gemacht, die auf dem Fahrzeug und der Buchungsdauer basieren. Ein Buchungsvorschlag wird als Vorlage genommen, um eine Buchung zu erstellen.
 Dem echten Kunde (nicht das Objekt) werden Buchunsvorschlage gemacht, die basierend auf das fahrzeug und die Buchungsdauer sind.
 Ein Buchungsvorschlag wird as template genommen um eine Buchung zu erstellen.
 
