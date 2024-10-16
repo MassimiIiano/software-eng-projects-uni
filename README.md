@@ -27,5 +27,24 @@ Eingeschlossene Anwendungsfälle (Buchung, Buchungsinformationen und Alter, Pers
 
 #### Erklärung
 
-Der User enthelt Persoenliche Daten und kann mit vielen Bezahlungsdaten verbunden sein.
-Dem echten Kunde (nicht das Objekt) werden Buchunsvor
+Der Benutzer enthält persönliche Daten und kann mit vielen Zahlungsdaten verbunden sein. Dem echten Kunden (nicht dem Objekt) werden Buchungsvorschläge gemacht, die auf dem Fahrzeug und der Buchungsdauer basieren. Ein Buchungsvorschlag wird als Vorlage genommen, um eine Buchung zu erstellen.
+Dem echten Kunde (nicht das Objekt) werden Buchunsvorschlage gemacht, die basierend auf das fahrzeug und die Buchungsdauer sind.
+Ein Buchungsvorschlag wird as template genommen um eine Buchung zu erstellen.
+
+### Klassendiagramm (Erweitert)
+![Klassendiagramm (Erweitert)](./sw-eng-04.drawio.svg)
+
+#### Erklärung
+<!-- TODO -->
+
+### Sequenzdiagramm
+![Sequenzdiagramm](./sw-eng-05.drawio.svg)
+
+#### Erklärung
+<!-- TODO -->
+
+### Klassendiagramm mit funktionen
+![Klassendiagramm mit Funktionen](./sw-eng-06.drawio.svg)
+
+#### Erklärung
+<!-- TODO -->
