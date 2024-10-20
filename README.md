@@ -43,7 +43,7 @@ Ein Buchungsvorschlag wird as template genommen um eine Buchung zu erstellen.
 #### Erklärung
 Das Sequenzdiagramm zeigt, wie ein Kunde Mietvorschläge basierend auf Alter und Anforderungen anfordert (*Kostenvoranschläge Bereitstellung* Anwendungsfall).
 Der Suchvorgang startet in der Präsentationsschicht, durchläuft den Server, der Autos filtert, und greift auf die Autodatenbank zu. Gefilterte Autos werden als Mietvorschläge zurückgegeben und dem Kunden angezeigt.
-Das Diagramm zeigt keine Fehlerbehandlung.
+Das Diagramm zeigt keine Fehlerbehandlung. P_SuchVorschlag kümmert sich um das GUI, um die Vorschläge dem Kunden anzuzeigen.
 
 ### Klassendiagramm mit funktionen
 ![Klassendiagramm mit Funktionen](./sw-eng-06.drawio.svg)
