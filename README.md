@@ -47,4 +47,4 @@ Ein Buchungsvorschlag wird as template genommen um eine Buchung zu erstellen.
 ![Klassendiagramm mit Funktionen](./sw-eng-06.drawio.svg)
 
 #### Erklärung
-<!-- TODO -->
+Dieses Diagramm beschreibt die Klassen, dessen metoden und die Abhängigkeit zueinander um eine Liste von Leihvorschläge dem kunde zu liefern. Der kunde gibt auf der SearchProposals seite seinen alter und anforderungen an. Dieser contaktiert den server der den Search controller benuzt um eine liste von Farzeuge zu kriegen, die den Anforderungen des kunden entsprechen. Der C_Server speist anschließlich den C_Proposal component componente die lieste Fahreugen und kriegt eine liste von Vorshlagen zurück. Dieser sendedt die probosals zu P_SearchProposal der die liste von proposals graphisch dem kunde anzeigt. 
