@@ -35,13 +35,16 @@ Ein Buchungsvorschlag wird as template genommen um eine Buchung zu erstellen.
 ![Klassendiagramm (Erweitert)](./sw-eng-04.drawio.svg)
 
 #### Erklärung
-<!-- TODO -->
+
+Ein Benutzer könnte die Kreditkarte einer anderen Person nutzen, daher gibt es keine Aggregation zwischen der Karte und dem Nutzer. Jede Buchung basiert auf einem Buchungsvorschlag, daher ist der Vorschlag ein wichtiger Teil der Buchung. Die Rückgabe-/Abgabedaten und -orte sind Teil des Buchungsvorschlags, da sie als Parameter für die Vermittlungssuche verwendet werden. Das Attribut "Reduzierung" in den Buchungen enthält Informationen wie Aktionen oder Reduzierungen der Selbstbeteiligung gegen eine zusätzliche Gebühr. Da die Vorschläge können auch bei E-Mail angeboten sein, es besteht eine viele-zu-viele-Assoziation zwischen Buchungsvorschlägen und E-Mails, da ein Kunde mehrere E-Mails für einen Vorschlag senden und erhalten kann.
 
 ### Sequenzdiagramm
 ![Sequenzdiagramm](./sw-eng-05.drawio.svg)
 
 #### Erklärung
-<!-- TODO -->
+Das Sequenzdiagramm zeigt, wie ein Kunde Mietvorschläge basierend auf Alter und Anforderungen anfordert (*Kostenvoranschläge Bereitstellung* Anwendungsfall).
+Der Suchvorgang startet in der Präsentationsschicht, durchläuft den Server, der Autos filtert, und greift auf die Autodatenbank zu. Gefilterte Autos werden als Mietvorschläge zurückgegeben und dem Kunden angezeigt.
+Das Diagramm zeigt keine Fehlerbehandlung. P_SuchVorschlag kümmert sich um das GUI, um die Vorschläge dem Kunden anzuzeigen.
 
 ### Klassendiagramm mit funktionen
 ![Klassendiagramm mit Funktionen](./sw-eng-06.drawio.svg)
