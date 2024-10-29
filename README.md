@@ -13,14 +13,14 @@
 
 #### Erklärung
 
-- Aufgabe 1: Das Anwendungsfalldiagramm zeigt das Autovermietungssystem aus der Sicht des Kunden. Die dargestellten Anwendungsfälle beschreiben die Interaktionen zwischen Kunden und System durch den Austausch von Daten und die Erfüllung von Anforderungen. Die Hauptzugangspunkte für den Kunden sind die Buchung und die Anzeige von Mietangeboten. Jeder Anwendungsfall stellt eine notwendige Funktion für ein vollständiges, funktionales Autovermietungssystem dar.
+Das Anwendungsfalldiagramm zeigt das Autovermietungssystem aus der Sicht des Kunden. Die dargestellten Anwendungsfälle beschreiben die Interaktionen zwischen Kunden und System durch den Austausch von Daten und die Erfüllung von Anforderungen. Die Hauptzugangspunkte für den Kunden sind die Buchung und die Anzeige von Mietangeboten. Jeder Anwendungsfall stellt eine notwendige Funktion für ein vollständiges, funktionales Autovermietungssystem dar.
 
 ### Anwendungsfallmodell mit Server
 
 ![Anwendungsfallmodell mit Server](./sw-eng-02.drawio.svg)
 
-- Aufgabe 2: Das Anwendungsfalldiagramm zeigt Anwendungsfälle des Autovermietungssystems. Die meisten Fälle werden aus der Perspektive des Servers beschrieben. Nur der Anwendungsfall "Buchung" ist direkt mit dem Kunden verbunden.
-Eingeschlossene Anwendungsfälle (Buchung, Buchungsinformationen und Alter, Persönliche Daten, Zahlungsdaten, usw.) sind notwendig, um Basis-Anwendungsfälle korrekt zu funktionieren (Bestätigungs-E-Mail Erstellung, Kostenvoranschläge Bereitstellung, Buchung in Datenbank Speicherung, usw.).
+Das Anwendungsfalldiagramm zeigt Anwendungsfälle des Autovermietungssystems. Die meisten Fälle werden aus der Perspektive des Servers beschrieben. Nur der Anwendungsfall "Buchung" ist direkt mit dem Kunden verbunden.
+Eingeschlossene Anwendungsfälle (Buchung, Buchungsinformationen und Alter, Persönliche Daten, Zahlungsdaten, usw.) sind notwendig, um Basis-Anwendungsfälle korrekt zu funktionieren (Buchungabschluss, Kostenvoranschläge Bereitstellung, Datenüberprüfung).
 
 ### Klassendiagramm (Einfach)
 ![Klassendiagramm (Einfach)](./sw-eng-03.drawio.svg)
