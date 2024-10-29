@@ -27,9 +27,7 @@ Eingeschlossene Anwendungsfälle (Buchung, Buchungsinformationen und Alter, Pers
 
 #### Erklärung
 
-Der Benutzer enthält persönliche Daten und kann mit vielen Zahlungsdaten verbunden sein. Dem echten Kunden (nicht dem Objekt) werden Buchungsvorschläge gemacht, die auf dem Fahrzeug und der Buchungsdauer basieren. Ein Buchungsvorschlag wird als Vorlage genommen, um eine Buchung zu erstellen.
-Dem echten Kunde (nicht das Objekt) werden Buchunsvorschlage gemacht, die basierend auf das fahrzeug und die Buchungsdauer sind.
-Ein Buchungsvorschlag wird as template genommen um eine Buchung zu erstellen.
+Das Klassendiagramm enthält die grundlegenden Entitäten des Systems: Jeder Kunde kann mehrere Kreditkarten und Buchungen haben, die mit E-Mails, Buchungsvorschlägen und Extras verbunden sind. Zudem ist ein Buchungsvorschlag mit E-Mails verknüpft, da ein Kunde die Informationen zum Vorschlag per E-Mail anfordern kann. Es gibt außerdem ein Fahrzeug, das mit Buchungsvorschlägen verknüpft ist.
 
 ### Klassendiagramm (Erweitert)
 ![Klassendiagramm (Erweitert)](./sw-eng-04.drawio.svg)
