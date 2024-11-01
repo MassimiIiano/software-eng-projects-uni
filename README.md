@@ -50,3 +50,23 @@ Das Diagramm zeigt keine Fehlerbehandlung. P_SuchVorschlag kümmert sich um das 
 
 #### Erklärung
 Das Diagramm beschreibt die Klassen, deren Methoden und die Abhängigkeiten zueinander, um eine Liste von Leihvorschlägen für den Kunden zu liefern. Der Kunde gibt auf der Seite SearchProposals sein Alter und seine Anforderungen an. Diese Informationen werden an den Server gesendet, der den SearchController verwendet, um eine Liste von Fahrzeugen zu erhalten, die den Anforderungen des Kunden entsprechen. Der C_Server übergibt anschließend die Liste der Fahrzeuge an die C_Proposal-Komponente und erhält eine Liste von Vorschlägen zurück. Diese werden dann an P_SearchProposal gesendet, das die Liste der Vorschläge dem Kunden grafisch anzeigt.
+
+### A7: Schichtenarchitektur
+![Klassendiagramm mit Funktionen](./sw-eng-07.drawio.svg)
+
+#### Erklärung
+
+### A8: Zustandsdiagramm
+![Klassendiagramm mit Funktionen](./sw-eng-08.drawio.svg)
+
+#### Erklärung
+
+### A9: Komponentendiagramm
+![Klassendiagramm mit Funktionen](./sw-eng-09.drawio.svg)
+
+#### Erklärung
+
+### A10: Bereitstellungsdiagramm
+![Klassendiagramm mit Funktionen](./sw-eng-10.drawio.svg)
+
+#### Erklärung
