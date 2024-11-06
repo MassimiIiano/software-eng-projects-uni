@@ -61,6 +61,8 @@ Das Diagramm beschreibt die Klassen, deren Methoden und die Abhängigkeiten zuei
 
 #### Erklärung
 
+Das Zustandsdiagramm beschreibt die Zustände der Entitäten die in den vorherige Diagrammen geschrieben sind. Das Diagramm beginnt mit der Verifizierung der Daten für die Generation der Buchung und der Erfüllung der Zahlungsdaten. Wenn die Zahlung fehlschlägt, kann der Kunde die Zahlung mehrmals wiederholen bis sie erfolgreich ist. Wenn der Kunde seine Buchung stornieren möchte, wird eine Absage-Email gesendet; ansonsten bleibt die Buchung aktiv.
+
 ### A9: Komponentendiagramm
 ![Klassendiagramm mit Funktionen](./sw-eng-09.drawio.svg)
 
