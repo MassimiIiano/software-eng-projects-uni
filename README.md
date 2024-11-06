@@ -73,11 +73,11 @@ Das Zustandsdiagramm beschreibt die Zustände der Entitäten die in den vorherig
 
 #### Komponenten-Interaktionen
 
-* $\mathtt{*.jar} \, \xrightarrow{\text{Deploy}} \, \mathtt{Webserver}$
-* $\mathtt{*.html} \, \xrightarrow{\text{Display}} \, \mathtt{Nutzersgerät}$
-* $\mathtt{*.ddl} \, \xrightarrow{\text{Serve data}} \, \mathtt{J2EEServer}$
-* $\mathtt{Webserver} \, \xrightarrow{\text{Serve over HTTP}} \, \mathtt{Nutzersgerät}$
-* $\mathtt{Nutzersgerät} \, \xrightarrow{\text{Serve for processing}} \, \mathtt{Browser}$
+* $\mathtt{*.jar} \xrightarrow{\text{Deploy}} \mathtt{Webserver}$
+* $\mathtt{*.html} \xrightarrow{\text{Display}} \mathtt{Nutzersgerät}$
+* $\mathtt{*.ddl} \xrightarrow{\text{Serve data}} \mathtt{J2EEServer}$
+* $\mathtt{Webserver} \xrightarrow{\text{Serve over HTTP}} \mathtt{Nutzersgerät}$
+* $\mathtt{Nutzersgerät} \xrightarrow{\text{Serve for processing}} \mathtt{Browser}$
 
 #### Erklärung
 
