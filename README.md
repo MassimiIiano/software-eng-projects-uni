@@ -68,7 +68,15 @@ Das Zustandsdiagramm beschreibt die Zustände der Entitäten die in den vorherig
 ### A9: Komponentendiagramm
 ![Klassendiagramm mit Funktionen](./sw-eng-09.drawio.svg)
 
+Dieses Komponentendiagramm zeigt die Schichtenarchitektur eines Autovermietungssystems mit drei Hauptschichten:
 
+AVEntities (Datenbank/Entitäten-Schicht): Speichert die Kernentitäten des Systems, wie z. B. Fahrzeug, Kunde, Buchung, Vorschlag, Extra und Bezahlung.
+
+AVController (Geschäftslogik-Schicht): Verarbeitet die Hauptfunktionen des Systems, wie Suche, Buchung, Vorschlag, und Mail. Diese Schicht verbindet die Datenbank und die Benutzeroberfläche. Für den Kunden relevante d Daten, wie z.B. buchungsdaten werden ihm über emal automatisch gesendet.
+
+AVPresentation (Präsentationsschicht): Die Benutzeroberfläche, die dem Nutzer ermöglicht, mit den Funktionen wie Suche, Buchung und Vorschlag zu interagieren.
+
+Die Schichten sind so organisiert, dass jede Schicht ihre spezifische Aufgabe hat, was die Wartbarkeit und Skalierbarkeit des Systems fördert.
 
 #### Erklärung
 
