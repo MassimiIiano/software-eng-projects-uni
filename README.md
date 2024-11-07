@@ -55,7 +55,8 @@ Das Diagramm beschreibt die Klassen, deren Methoden und die Abhängigkeiten zuei
 ![Klassendiagramm mit Funktionen](./sw-eng-07.drawio.svg)
 
 #### Erklärung
-Dieses diagramm folgt den data flow. Die Presentation componente zeigen die Suchergebnisse, Buchungsvorshläge und Buchungsvorgänge ab. diese daten kriegen sie vom controll layer der auf einem eigenen server leuft. dieser ist dafür zuständig die korrekten informationen vom database zu holen. Wichtig zu bemerken dass die einzige Entität die nich in ein database gespeicehrt wird die EVorschlag Entität ist. dieese wird dinamisch von CVorschlag anhand von den verfügbaren EAutos berechnet. Falls ein buchungsvorschlag ausgewählt wird wird ein Buchungsobjekt anhand von diesen EVorschlag gemacht, der dan von CBuchung im database abgespeihert wird.
+
+Dieses Diagramm folgt dem Datenfluss. Die Präsentations-Layer zeigt die Suchergebnisse, Buchungsvorschläge und Buchungsvorgänge an. Die Daten werden vom Kontroll-Layer bezogen, der auf einem eigenen Server läuft und dafür zuständig ist, die korrekten Informationen aus der Datenbank abzurufen. Wichtig ist zu beachten, dass die einzige Entität, die nicht in der Datenbank gespeichert wird, `EVorschlag` ist. `EVorschlag` wird dynamisch von `CVorschlag` auf der Grundlage der verfügbaren `EFahrzeuge` berechnet. Falls ein Buchungsvorschlag ausgewählt wird, wird ein Buchungsobjekt anhand dieses `EVorschlags` erstellt, das dann von `CBuchung` in der Datenbank gespeichert wird.
 
 
 ### A8: Zustandsdiagramm
@@ -66,19 +67,18 @@ Dieses diagramm folgt den data flow. Die Presentation componente zeigen die Such
 Das Zustandsdiagramm beschreibt die Zustände der Entitäten die in den vorherige Diagrammen geschrieben sind. Das Diagramm beginnt mit der Verifizierung der Daten für die Generation der Buchung und der Erfüllung der Zahlungsdaten. Wenn die Zahlung fehlschlägt, kann der Kunde die Zahlung mehrmals wiederholen bis sie erfolgreich ist. Wenn der Kunde seine Buchung stornieren möchte, wird eine Absage-Email gesendet; ansonsten bleibt die Buchung aktiv.
 
 ### A9: Komponentendiagramm
+
 ![Klassendiagramm mit Funktionen](./sw-eng-09.drawio.svg)
+
+#### Erklärung
 
 Dieses Komponentendiagramm zeigt die Schichtenarchitektur eines Autovermietungssystems mit drei Hauptschichten:
 
-AVEntities (Datenbank/Entitäten-Schicht): Speichert die Kernentitäten des Systems, wie z. B. Fahrzeug, Kunde, Buchung, Vorschlag, Extra und Bezahlung.
+* AVEntities (Datenbank-/Entitäten-Schicht): Speichert die Kernentitäten des Systems, wie z. B. Fahrzeug, Kunde, Buchung, Vorschlag, Extra und Bezahlung.
+* AVController (Geschäftslogik-Schicht): Verarbeitet die Hauptfunktionen des Systems, wie Suche, Buchung, Vorschlag und Mail. Diese Schicht verbindet die Datenbank mit der Benutzeroberfläche. Für den Kunden relevante Daten, wie z. B. Buchungsdaten, werden ihm automatisch per E-Mail zugesendet.
+* AVPresentation (Präsentationsschicht): Die Benutzeroberfläche, die dem Nutzer ermöglicht, mit den Funktionen wie Suche, Buchung und Vorschlag zu interagieren.
+Die Schichten sind so organisiert, dass jede Schicht ihre spezifische Aufgabe hat, was die Wartbarkeit und Skalierbarkeit des Systems fördert
 
-AVController (Geschäftslogik-Schicht): Verarbeitet die Hauptfunktionen des Systems, wie Suche, Buchung, Vorschlag, und Mail. Diese Schicht verbindet die Datenbank und die Benutzeroberfläche. Für den Kunden relevante d Daten, wie z.B. buchungsdaten werden ihm über emal automatisch gesendet.
-
-AVPresentation (Präsentationsschicht): Die Benutzeroberfläche, die dem Nutzer ermöglicht, mit den Funktionen wie Suche, Buchung und Vorschlag zu interagieren.
-
-Die Schichten sind so organisiert, dass jede Schicht ihre spezifische Aufgabe hat, was die Wartbarkeit und Skalierbarkeit des Systems fördert.
-
-#### Erklärung
 
 ### A10: Bereitstellungsdiagramm
 ![Klassendiagramm mit Funktionen](./sw-eng-10.drawio.svg)
