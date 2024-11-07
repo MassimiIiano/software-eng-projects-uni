@@ -55,6 +55,8 @@ Das Diagramm beschreibt die Klassen, deren Methoden und die Abhängigkeiten zuei
 ![Klassendiagramm mit Funktionen](./sw-eng-07.drawio.svg)
 
 #### Erklärung
+Dieses diagramm folgt den data flow. Die Presentation componente zeigen die Suchergebnisse, Buchungsvorshläge und Buchungsvorgänge ab. diese daten kriegen sie vom controll layer der auf einem eigenen server leuft. dieser ist dafür zuständig die korrekten informationen vom database zu holen. Wichtig zu bemerken dass die einzige Entität die nich in ein database gespeicehrt wird die EVorschlag Entität ist. dieese wird dinamisch von CVorschlag anhand von den verfügbaren EAutos berechnet. Falls ein buchungsvorschlag ausgewählt wird wird ein Buchungsobjekt anhand von diesen EVorschlag gemacht, der dan von CBuchung im database abgespeihert wird.
+
 
 ### A8: Zustandsdiagramm
 ![Klassendiagramm mit Funktionen](./sw-eng-08.drawio.svg)
@@ -65,6 +67,8 @@ Das Zustandsdiagramm beschreibt die Zustände der Entitäten die in den vorherig
 
 ### A9: Komponentendiagramm
 ![Klassendiagramm mit Funktionen](./sw-eng-09.drawio.svg)
+
+
 
 #### Erklärung
 
